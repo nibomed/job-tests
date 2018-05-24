@@ -92,6 +92,7 @@ void buildPolygon(point vertex) {
 
 int main() {
 	std::cin >> n;
+	if (n < 3) return 1;
 	while (points.size() < n)
 	{
 		double x, y;
